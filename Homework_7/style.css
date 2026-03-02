@@ -1,0 +1,33 @@
+.home-body {
+    background-image: url("images/gradient.jpg");
+}
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.story {
+    font-weight: 300;
+}
+.story-body {
+    background-image: url("images/gradient.jpg");
+}
+.header {
+    margin: 4px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.contact-body {
+    background-image: url("images/gradient.jpg");
+}
+.contact-text {
+    margin: 4px;
+}
+#list-item{
+    font-size: smaller;
+    font-weight: bolder;
+}
+#site-link{
+    font-size: medium;
+    font-weight: 300;
+}
