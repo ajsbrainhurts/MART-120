@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact me!</title>
+    <link href="https://iosevka-webfonts.github.io/iosevka/Iosevka.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body class="contact-body">
+    <h1 class="header">Contact me!</h1>
+    <br>
+    <form method="POST" name="contact">
+        Name: <input type="text" id="name" name="name" required>
+        Email: <input type="text" id="email" name="email" required>
+        <button type="submit" id="form-submit" onclick="termsValidation()">Submit</button>
+        <br><br>
+        <p class="contact-text">Can I collect and sell all your data?</p>
+        <input type="radio" name="answer" id="Yes" value="yes">Yes :D
+        <input type="radio" name="answer" id="No" value="no">No ;(
+        <br><br>
+        <div id="terms-error-msg"></div>
+        <br>
+    </form>
+    <br>
+    <a href="homepage.html" class="site-link">Go to home!</a>
+    <br><br>
+    <a href="2ndpage.html" class="site-link">Check out my project!</a>
+    <br><br>
+    <script src="../static/main.js"></script>
+</body>
+
+</html>

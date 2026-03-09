@@ -1,0 +1,47 @@
+* {
+    font-family: "Iosevka Web";
+}
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.story {
+    font-weight: 300;
+}
+.header {
+    margin: 4px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.contact-text {
+    font-size: 16px;
+    font-style:oblique;
+    margin: 4px;
+}
+#terms-error-msg {
+    color: red;
+}
+.home-body, .story-body, .contact-body {
+    background-image: url(../images/gradient.jpg);
+}
+#list-item{
+    font-size: smaller;
+    font-weight: bolder;
+}
+.site-link{
+    font-size: medium;
+    font-weight: 300;
+}
+#name, #email {
+    border-radius: 6px;
+    border: 2px solid transparent;
+    transition: ease-in 0.3s;
+}
+#name:focus, #email:focus {
+    border: 2px solid black;
+    outline: none;
+}
+#name:user-invalid, #email:user-invalid {
+    border: 2px solid red;
+}
